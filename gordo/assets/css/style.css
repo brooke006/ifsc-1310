@@ -1,41 +1,41 @@
 /*  ---------------Box Sizing-----------------  */
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  /*---------------Responsive Images-------*/
-  img{
-    max-width: 100%
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*---------------Responsive Images-------*/
+img{
+  max-width: 100%
+}
 
 /*----------------Utility Styles--------------*/
 .container{
-    width:80vw
-    margin: 40px auto;
+  width:80vw
+  margin: 40px auto;
 }
-  /*  --------------- Global Styles -----------------  */
+/*  --------------- Global Styles -----------------  */
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:0;
 }
 
 header.primary{
-    background-color:#6CAFD9;
-  color:#203F59;
-  text-align:center;
-  padding: 40px; 
+  background-color:#6CAFD9;
+color:#203F59;
+text-align:center;
+padding: 40px; 
 }
 
 header.primary h1 {
-    font-size: 2.4rem;
-    margin: 20px;
+  font-size: 2.4rem;
+  margin: 20px;
 }
 
 header.primary h1 a{
-    color:#32593C;
-    text-decoration:none;
+  color:#32593C;
+  text-decoration:none;
 }

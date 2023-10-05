@@ -18,7 +18,7 @@ html {
 /*----------------Utility Styles--------------*/
 .container{
     width:80vw
-    margin: 40px auto;
+    margin:40px auto;
 }
   
   /*  --------------- Global Styles -----------------  */
@@ -103,6 +103,8 @@ header.primary nav a:active
     flex-direction:row;
     justify-content:space-between;
     gap:15px;
+    border-bottom: 1px solid #32593C;
+    padding-bottom: 2.6rem;
 }
 
 #content article.post{
@@ -119,14 +121,63 @@ transition:.5s;
 article.post figure{
     margin:0;
 }
+time.post-date{
+    text-transform:uppercase;
+  }
+article.post p{
+    text-transform:capitalize;
+    color:#32593C;
+    font-size:.7rem;
+}
+article.post img{
+    border:solid 1px #32593C;
+    padding: 2.5px;
+    border-radius: 5px;
+}
+article.post a{
+    color: #32593C;
+    transition:.5s;
+}
+article.post a:hover{
+    text-decoration:none;
+}
 
+aside[role="complementary"]{
+    background-color:#32593C;
+    color:#EBF2B6;
+    padding:40px;
+}
 
+aside .container{
+    display:flex
+    flex-direction: row;
+    gap:40px
+}
+aside.container p{
+    line-height:1;
+}
 
+aside .container a{
+    color: #C4D977;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+}
 
+aside .container .widget footer{
+    display: none;
+}
 
+#colophon{
+background:#EBF2B6 ;
+color: #32593C;
+}
 
-
-
+#colophon h6{
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
 
 
 
@@ -153,3 +204,16 @@ header.primary nav ul a{
     display:block;
   }
   
+  #content{
+    flex-direction: column;
+  }
+
+  #content img{
+    display: block;
+    margin:20px auto
+  }
+
+
+  aside .container{
+    flex-direction: column;
+  }
