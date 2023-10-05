@@ -9,12 +9,12 @@ html {
 }
 /*---------------Responsive Images-------*/
 img{
-  max-width: 100%
+  max-width: 100%;
 }
 
 /*----------------Utility Styles--------------*/
 .container{
-  width:80vw
+  width:80vw;
   margin: 40px auto;
 }
 /*  --------------- Global Styles -----------------  */
