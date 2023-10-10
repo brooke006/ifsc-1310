@@ -20,7 +20,21 @@ html {
     width:80vw;
     margin:40px auto;
 }
+
+.img-left{
+    float: left;
+    margin: 10px 20px 10px 0;
+    border: 4px double #c0c0c0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+}
   
+.img-center{
+    border:4px double #c0c0c0;
+    padding:5px;
+    box-shadow: 4px 4px 2px rgba(0,0,0,.4);
+    display:block;
+    margin:20px auto;
+  }
   /*  --------------- Global Styles -----------------  */
   
 body{
@@ -85,8 +99,7 @@ header.primary nav a{
 
 }
 header.primary nav a:hover,
-header.primary nav a:active
-{
+header.primary nav a:active{
     background-color: rgba(0, 0, 0, 0.8)
 }
 #intro{
@@ -141,7 +154,75 @@ article.post a{
 article.post a:hover{
     text-decoration:none;
 }
+#practice {
+    line-height: 1.8;
+}
 
+#practice a{
+color: blue;
+}
+
+#practice a:hover{
+    text-decoration:none
+}
+
+#practice h3{
+    border-left: 5px solid #32593C;
+    padding-left: 10px;
+}
+
+table{
+width: 100%;
+border: 1px solid #000000;
+margin: 20px 0;
+border-collapse: collapse;
+}
+table tr:nth-child(even){
+    background-color: rgba(0, 0, 0, .1);
+}
+table tr:hover{
+    background-color: rgba(180, 212, 36, 0.1);
+}
+table th{
+    background-color: #C4D977;
+    color: #000000;
+}
+table td{
+    border: 1px solid #000000;
+    padding: 5px;
+}
+table td:nth-child(n+2){
+   text-align:right;
+}
+ol{
+    list-style-type:lower-roman ;
+}
+
+li{
+
+}
+
+ul li> ul {
+list-style-type:square ;
+color: #32593C;
+}
+
+dl{}
+dt{
+    font-weight: bold;
+}
+dd{
+    margin: 0;
+}
+dd + dt{
+    color: green;
+}
+table caption{
+    color: #32593C;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 10px;
+}
 aside[role="complementary"]{
     background-color:#32593C;
     color:#EBF2B6;
