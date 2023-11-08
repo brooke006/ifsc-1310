@@ -215,7 +215,7 @@ ol{
     list-style-type:lower-roman ;
 }
 
-li{}
+
 
 
 ul li> ul {
@@ -223,7 +223,7 @@ list-style-type:square ;
 color: #32593C;
 }
 
-dl{}
+
 dt{
     font-weight: bold;
 }

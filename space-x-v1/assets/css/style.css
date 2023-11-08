@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .container{
+    width:80vw;
+    margin:40px auto;
+
+}
+header.primary{
+  
+      text-align:center;
+       padding: 20px 40px 20px 40px;
+       text-shadow: 1.5px 1.5px #808080;
+    }
+ 
