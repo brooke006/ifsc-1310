@@ -1,0 +1,52 @@
+/* Color Theme  
+#A64149
+#244033
+#D99B77
+#BF6D4E
+#400D01
+*/
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  header.primary{
+    text-align:center;
+    padding: 20px 40px 20px 40px;
+    text-shadow: 1.5px 1.5px black ;
+    padding: 6em 2em;
+    color:#D99B77 ;
+    background-color:#244033;
+  }
+  h2{
+    text-align: center;
+    color:#A64149 ;
+  }
+h4{
+    color:#BF6D4E;
+}
+  a:link {
+    color: #244033;
+    }
+ a:visited {
+        color: #400D01;
+        }
+body{
+    background-color:#D99B77
+    ;
+}
+ul {
+    background: #244033;
+    padding: 20px 40px ;
+    font-size: 1.4rem;
+  }
+  ul li {
+   text-align: center;
+    background: #D99B77;
+    padding: 20px;
+    color:#400D01;
+    margin: 20px;
+  }
