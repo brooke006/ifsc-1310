@@ -28,13 +28,13 @@ body{
   margin: 0;
 }
 header.primary{
-  background-color:#051940;
-text-align:center;
+       background: url("../img/dragoncrew.8k.jpg") ;
+       text-align:center;
        padding: 20px 40px 20px 40px;
        text-shadow: 1.5px 1.5px #808080;
        color:#ffffff;
        padding: 6em 2em;
-       position: relative;
+       
     }
     header.primary h1 {
       font-size: 3.2rem;
