@@ -214,10 +214,6 @@ table td:nth-child(n+2){
 ol{
     list-style-type:lower-roman ;
 }
-
-
-
-
 ul li> ul {
 list-style-type:square ;
 color: #32593C;
