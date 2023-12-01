@@ -172,7 +172,8 @@ details:focus {
 
 
 summary {
-
+  background: url("https://assets.codepen.io/14179/Info.svg") 11px 11.5px no-repeat;
+  list-style: none;
   padding: 10px;
   padding-left: 33px;
 }
