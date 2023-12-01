@@ -157,21 +157,22 @@ font-weight: bold;
 details{
 border: 1px solid #000000;
 border-radius: 0.2rem;
-padding:0.5rem;
+padding: 5px;
 cursor:pointer;
 transition: 0.15s ;
+margin: 5px;
+
 } 
-
-
 
 details:hover,
 details:focus {
-  background: #F2D194;
+  background: #ddd;
+  color: #0B6BBF;
 }
 
+
 summary {
-  background: url("https://assets.codepen.io/14179/Info.svg") 11px 11.5px no-repeat;
-  list-style: none;
+
   padding: 10px;
   padding-left: 33px;
 }
